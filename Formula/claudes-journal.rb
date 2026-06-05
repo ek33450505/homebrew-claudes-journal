@@ -1,9 +1,9 @@
 class ClaudesJournal < Formula
   desc "Give Claude a journal — session continuity for Claude Code"
   homepage "https://github.com/ek33450505/cast-claudes_journal"
-  url "https://github.com/ek33450505/cast-claudes_journal/archive/refs/tags/v0.2.0.tar.gz"
-  version "0.2.0"
-  sha256 "ea784b4544d523e1b31b9153fa128dd4a8c41779c07cc617689c926b67e2f6e7"
+  url "https://github.com/ek33450505/cast-claudes_journal/archive/refs/tags/v0.3.0.tar.gz"
+  version "0.3.0"
+  sha256 "1396fb94a75f70992025666c0419d3e79d5ac92180607cb2362d50face4cdd7c"
   license "MIT"
 
   def install
@@ -26,7 +26,7 @@ class ClaudesJournal < Formula
         bash #{prefix}/uninstall.sh
 
       Journal entries are stored at:
-        ~/.claude/claudes-corner/
+        ~/Documents/Claude/
 
       To reflect at the end of a session, use the /reflect slash command
       inside Claude Code, or ask Claude to reflect on the session.
