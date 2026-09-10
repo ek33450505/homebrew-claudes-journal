@@ -1,9 +1,9 @@
 class ClaudesJournal < Formula
   desc "Give Claude a journal — session continuity for Claude Code"
   homepage "https://github.com/ek33450505/cast-claudes_journal"
-  url "https://github.com/ek33450505/cast-claudes_journal/archive/refs/tags/v0.4.0.tar.gz"
-  version "0.4.0"
-  sha256 "8968cc2e64a43c1c433ce9bd3b708532bf04cf10d3e260f52c730d6edcea1b46"
+  url "https://github.com/ek33450505/cast-claudes_journal/archive/refs/tags/v0.4.1.tar.gz"
+  version "0.4.1"
+  sha256 "0108228cfd1424ea8166b1ccebb183a5f590b07002ffad0902641ec48e5f8cee"
   license "MIT"
 
   def install
